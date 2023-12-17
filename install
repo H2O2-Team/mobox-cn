@@ -29,7 +29,7 @@ pkg install xorg-xrandr -y &>/dev/null
 pkg install ncurses-utils -y &>/dev/null
 pkg install hashdeep -y &>/dev/null
 
-wget https://fastly.jsdelivr.net/gh/olegos2/mobox/components/termux-x11-1.02.07-0-all.deb &>/dev/null
+wget https://gcore.jsdelivr.net/gh/olegos2/mobox/components/termux-x11-1.02.07-0-all.deb &>/dev/null
 dpkg -i termux-x11-1.02.07-0-all.deb &>/dev/null
 rm -rf termux-x11-1.02.07-0-all.deb
 
